@@ -1,4 +1,5 @@
 import BasicExample from './shapes/basic-example';
+import Curve from './shapes/curve';
 import Path from './shapes/path';
 import Rect from './shapes/rect';
 
@@ -21,6 +22,12 @@ export default function Home() {
         <h1 className="text-5xl">Path</h1>
 
         <Path />
+      </div>
+
+      <div className="flex flex-col gap-10">
+        <h1 className="text-5xl">Curve</h1>
+
+        <Curve />
       </div>
     </div>
   );
