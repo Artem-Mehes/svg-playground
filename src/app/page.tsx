@@ -1,34 +1,21 @@
 import BasicExample from './shapes/basic-example';
 import Curve from './shapes/curve';
+import Donuts from './shapes/donuts';
 import Path from './shapes/path';
 import Rect from './shapes/rect';
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-16">
-      <div className="flex flex-col gap-10">
-        <h1 className="text-5xl">Basic example</h1>
+    <div className="flex flex-wrap gap-4">
+      <BasicExample />
 
-        <BasicExample />
-      </div>
+      <Rect />
 
-      <div className="flex flex-col gap-10">
-        <h1 className="text-5xl">Rect</h1>
+      <Path />
 
-        <Rect />
-      </div>
+      <Curve />
 
-      <div className="flex flex-col gap-10">
-        <h1 className="text-5xl">Path</h1>
-
-        <Path />
-      </div>
-
-      <div className="flex flex-col gap-10">
-        <h1 className="text-5xl">Curve</h1>
-
-        <Curve />
-      </div>
+      <Donuts />
     </div>
   );
 }
