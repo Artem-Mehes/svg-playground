@@ -1,5 +1,6 @@
 import BasicExample from './shapes/basic-example';
 import Curve from './shapes/curve';
+import { Curve2 } from './shapes/curve2';
 import Donuts from './shapes/donuts';
 import Path from './shapes/path';
 import Rect from './shapes/rect';
@@ -16,6 +17,8 @@ export default function Home() {
       <Curve />
 
       <Donuts />
+
+      <Curve2 />
     </div>
   );
 }

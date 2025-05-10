@@ -36,8 +36,6 @@ export const RadiusIncludingArea = () => {
     setSamples(result);
   }, []);
 
-  console.log('samples :>> ', samples);
-
   return (
     <svg width={500} height={500}>
       <text x={10} y={10} fontSize={12} fill="black">
